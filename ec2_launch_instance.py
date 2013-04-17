@@ -4,10 +4,10 @@ import boto
 import boto.manage.cmdshell
 
 def launch_instance(instance_type,
+		    ami,
                     key_name,
                     group_name, 
                     tag,
-		    ami='ami-3fec7956',
                     ssh_port=22,
                     cidr='0.0.0.0/0',
                     key_extension='.pem',
