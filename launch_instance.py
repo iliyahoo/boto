@@ -8,4 +8,4 @@ tag = 'boto'
 
 from ec2_launch_instance import launch_instance
 
-launch_instance(instance_type, key_name, group_name, tag)
+launch_instance(instance_type, ami, key_name, group_name, tag)
